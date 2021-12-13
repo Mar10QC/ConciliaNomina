@@ -37,6 +37,7 @@ namespace ConciliaNomina
         }
         private void BtGenerarRpts_Click(object sender, EventArgs e)
         {
+
             BtGenerarRpts.Enabled = false;
             if (string.IsNullOrEmpty(TbDirIDSE.Text) | string.IsNullOrEmpty(TbDirSUA.Text) | string.IsNullOrEmpty(TbDirRpts.Text))
             {
